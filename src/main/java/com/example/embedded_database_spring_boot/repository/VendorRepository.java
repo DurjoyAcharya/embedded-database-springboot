@@ -1,6 +1,6 @@
-package com.example.derby.api.repository;
+package com.example.embedded_database_spring_boot.repository;
 
-import com.example.derby.api.model.Vendor;
+import com.example.embedded_database_spring_boot.model.Vendor;
 import org.springframework.data.repository.CrudRepository;
 import java.util.Optional;
 public interface VendorRepository extends CrudRepository<Vendor,Long> {

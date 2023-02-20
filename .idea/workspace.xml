@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f0fc5e8-e2a6-4022-8d52-4dbae3e362d7" name="Changes" comment="derby database">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_1_214.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embedded_database_spring_boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/embedded_database_spring_boot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/derby/api/controller/VendorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/derby/api/controller/VendorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/derby/api/model/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/derby/api/model/Vendor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/embedded_database_spring_boot/EmbeddedDatabaseSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/embedded_database_spring_boot/EmbeddedDatabaseSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/derby/api/controller/VendorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/embedded_database_spring_boot/controller/VendorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/derby/api/model/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/embedded_database_spring_boot/model/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/derby/api/repository/VendorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/embedded_database_spring_boot/repository/VendorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,11 +78,14 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "project.propCompiler"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "derby"
+      "derby",
+      "h2"
     ]
   }
 }]]></component>
@@ -92,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676896854388</updated>
-      <workItem from="1676896855821" duration="10455000" />
+      <workItem from="1676896855821" duration="13281000" />
     </task>
     <task id="LOCAL-00001" summary="derby concept">
       <created>1676896941135</created>

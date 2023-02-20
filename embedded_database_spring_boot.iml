@@ -97,6 +97,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.derby:derby:10.16.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbyshared:10.16.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbyclient:10.16.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:2.1.214" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:3.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:3.0.2" level="project" />

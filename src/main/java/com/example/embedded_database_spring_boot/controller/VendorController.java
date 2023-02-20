@@ -1,7 +1,7 @@
-package com.example.derby.api.controller;
+package com.example.embedded_database_spring_boot.controller;
 
-import com.example.derby.api.model.Vendor;
-import com.example.derby.api.repository.VendorRepository;
+import com.example.embedded_database_spring_boot.model.Vendor;
+import com.example.embedded_database_spring_boot.repository.VendorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

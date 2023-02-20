@@ -1,4 +1,4 @@
-package com.example.derby.api.model;
+package com.example.embedded_database_spring_boot.model;
 
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
