@@ -10,11 +10,11 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@Entity
+@Entity(name = "VENDOR_DB2")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "vendor", schema = "h2db")
+@Table
 public class Vendor {
     @Id
     private int id;

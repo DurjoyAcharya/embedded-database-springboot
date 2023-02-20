@@ -33,4 +33,9 @@ public class VendorController {
     {
         return repository.findByName(firstName);
     }
+    @GetMapping("/")
+    public String getHello()
+    {
+        return "Hello Durjoy";
+    }
 }
